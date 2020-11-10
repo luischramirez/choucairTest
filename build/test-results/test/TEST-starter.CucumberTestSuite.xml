@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="starter.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="LuisD" time="0.0">
+  <properties/>
+  <system-out><![CDATA[04:46:41.264 [Test worker] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at https://www.serenitydojo.net                           
+-------------------------------------------------------------------------------------
+
+04:46:41.287 [Test worker] INFO   - Test Suite Started: Ingreso a la sección de empleos
+04:46:41.314 [Test worker] INFO   - Test Suite Started: Busqueda de un empleo
+04:47:00.218 [Test worker] INFO   - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+Ingreso satisfactorio
+----------------------------------------------------------------------------
+04:47:00.278 [Test worker] INFO   - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+
+Consulta de empleos
+-------------------------------------------------------------------------------
+
+There were undefined steps. You can implement missing steps with the snippets below:
+
+@Given("Luis observa la sección de empleos")
+public void luis_observa_la_sección_de_empleos() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new cucumber.api.PendingException();
+}
+
+]]></system-out>
+  <system-err><![CDATA[nov 10, 2020 4:46:41 AM cucumber.runtime.java.ObjectFactoryLoader loadSingleObjectFactory
+ADVERTENCIA: Loading deprecated ObjectFactory from runtime via reflection: cucumber.runtime.SerenityObjectFactory
+]]></system-err>
+</testsuite>

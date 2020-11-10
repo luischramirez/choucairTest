@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Busqueda de un empleo" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-11-10T09:47:00" hostname="LuisD" time="0.032">
+  <properties/>
+  <testcase name="Consulta de empleos" classname="Busqueda de un empleo" time="0.032">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[
+Feature: Busqueda de un empleo
+
+  Scenario: Consulta de empleos                         ?[90m# src/test/resources/features/search/search/searchJob.feature:3?[0m
+04:47:00.250 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Consulta de empleos(busqueda-de-un-empleo;consulta-de-empleos)
+-------------------------------------------------------------------
+    ?[33mGiven ?[0m?[33mLuis observa la sección de empleos?[0m            ?[90m# null?[0m
+    ?[36mWhen ?[0m?[36mel ingresa los criterios de busqueda?[0m           ?[90m# SearchAJobStepDefinitions.el_ingresa_los_criterios_de_busqueda()?[0m
+    ?[36mThen ?[0m?[36mobserva los empleos relacionados a la busqueda?[0m ?[90m# SearchAJobStepDefinitions.empleos_relacionados_a_la_busqueda()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
